@@ -7,6 +7,7 @@ Public Class Form1
     Public Shared param_reset As New Boolean
     Public Shared param_wait As New Boolean
     Public Shared waitcommand As String
+    Public Shared ltr As New Integer
     Private Sub Form1_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         Show()
         CCommand.Hide()
@@ -199,17 +200,23 @@ selectcfg:
                 InputHelper.PressKey(Keys.T, True)
             End If
             CCommand.Text = "Current Command: "
+            Timer1.Stop()
             tog = 0
             Timer1.Interval = 5000
+            Timer1.Start()
 
         ElseIf tog = 1
+            commands = c_on(ltr)
             CCommand.Text = ("Current Command: " & commands.First)
             InputHelper.PressKey(Keys.T, True)
+            Timer1.Stop()
+            tog = 2
             Timer1.Interval = 15000
+            Timer1.Start()
 
         ElseIf tog = 0
             ' LOST THE RUN TO RNG DUDE!!!! (Randomly chooses command set)
-            Dim ltr As Integer = 0
+            ltr = 0
             ltr = rng.Next(c_on.Count)
             commands = c_on(ltr)
             ' Checks randomly chosen command set for parameters
@@ -226,8 +233,10 @@ selectcfg:
 
             IO.File.WriteAllLines(confdir & "\chaosCommands.cfg", commands.ToArray)
             IO.File.WriteAllText("StreamCommands.txt", commands.First)
+            Timer1.Stop()
             tog = 1
             Timer1.Interval = 10000
+            Timer1.Start()
         End If
     End Sub
 
