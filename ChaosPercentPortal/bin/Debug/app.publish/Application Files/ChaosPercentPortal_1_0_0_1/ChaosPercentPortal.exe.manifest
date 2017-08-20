@@ -1,0 +1,82 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="ChaosPercentPortal.exe" version="1.0.0.1" publicKeyToken="518926777972040b" language="neutral" processorArchitecture="msil" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="ChaosPercentPortal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+    <commandLine file="ChaosPercentPortal.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet version="1" class="System.Security.NamedPermissionSet" Name="LocalIntranet" Description="Default rights given to applications on the local intranet" Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC Manifest Options
+             If you want to change the Windows User Account Control level replace the 
+             requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            Specifying requestedExecutionLevel element will disable file and registry virtualization. 
+            Remove this element if your application requires this virtualization for backwards
+            compatibility.
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChaosPercentPortal.exe" size="196544">
+      <assemblyIdentity name="ChaosPercentPortal" version="1.0.0.0" language="neutral" processorArchitecture="msil" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+        <dsig:DigestValue>K0oPp3+leQbTQXs4GqMfNa1O/fQqoXDcOBLbBsQjPzM=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="ChaosPercentPortal.exe.config" size="188">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
+      <dsig:DigestValue>j5XMowm9qYcyNWR87Ke1KpLLXBlaYAR38CaZywZFE9o=</dsig:DigestValue>
+    </hash>
+  </file>
+  <compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">
+    <application>
+      <!-- A list of the Windows versions that this application has been tested on and is
+           is designed to work with. Uncomment the appropriate elements and Windows will 
+           automatically selected the most compatible environment. -->
+      <!-- Windows Vista -->
+      <!--<supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f0}" />-->
+      <!-- Windows 7 -->
+      <!--<supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}" />-->
+      <!-- Windows 8 -->
+      <!--<supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}" />-->
+      <!-- Windows 8.1 -->
+      <!--<supportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}" />-->
+      <!-- Windows 10 -->
+      <!--<supportedOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}" />-->
+    </application>
+  </compatibility>
+<publisherIdentity name="CN=ALEXLAPTOP\Alex" issuerKeyHash="6bf8a2af1cfe7093ff2111a28b41a1434108ac0c" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>4UfvSXAi7X6ljhrb42uqri7vqAKN1JzQkD/W8GWibZ4=</DigestValue></Reference></SignedInfo><SignatureValue>E7IFJ56lnaKBdGgoOrd5dAAYQMc1fLwRNASBaMakpHYMlYVoMG3jRXZxm+enyG4GX1b0Tvr7FuGvBV+Gg0NFZ+75Aaq6h0m4w9jKwj6/v+NSunPmSyJqqaM7cA2XDFcPtiSX0PW43Pv1V1oYR0nTC+9Qe18MS/j5V5tE/i7WQ3M=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>8Fk3t2in6xxBIMpsQd0Cp0iBcA8bRZY0kYh9rMs/TCHj4Zi4+AZbObQt/Q4YL1chV2J3EVoEJZRwAdZl5SATYPIDR7u9wcPLHzV0mwkeU2rv12LSH4rs/P0AdKM/Bu6QUV7ZByDTegWCoenj/wNnp9TIfE9WdQV7qMvW8inMWm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="9e6da265f0d63f90d09cd48d02a8ef2eaeaa6be3db1a8ea57eed227049ef47e1" Description="" Url=""><as:assemblyIdentity name="ChaosPercentPortal.exe" version="1.0.0.1" publicKeyToken="518926777972040b" language="neutral" processorArchitecture="msil" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=ALEXLAPTOP\Alex</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha256" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" /><DigestValue>XfxrfpsGx/JFDW4gAhHpUwHsFlVXosDRzJgUUzgLAh8=</DigestValue></Reference></SignedInfo><SignatureValue>PuVXNUDlezjUgggvDttvwS8e0CmNqdWZtMYLfXevSN/cOrW1T/JkSHRk8fR8hZsEx5FnwtVg3D1EUVzIUhy/vUJj+ev1otyozIAkLZMmofG2TmeXlEPjUsGyQMXHgYIsT49yCeND+JMrI9pjqeQJI/vVsykT3qjVDhqW9WDBkQE=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>8Fk3t2in6xxBIMpsQd0Cp0iBcA8bRZY0kYh9rMs/TCHj4Zi4+AZbObQt/Q4YL1chV2J3EVoEJZRwAdZl5SATYPIDR7u9wcPLHzV0mwkeU2rv12LSH4rs/P0AdKM/Bu6QUV7ZByDTegWCoenj/wNnp9TIfE9WdQV7qMvW8inMWm0=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB1TCCAT6gAwIBAgIQIrKQXIBOEphLmuC1tJXItTANBgkqhkiG9w0BAQsFADApMScwJQYDVQQDHh4AQQBMAEUAWABMAEEAUABUAE8AUABcAEEAbABlAHgwHhcNMTcwODIwMDkzNjQ2WhcNMTgwODIwMTUzNjQ2WjApMScwJQYDVQQDHh4AQQBMAEUAWABMAEEAUABUAE8AUABcAEEAbABlAHgwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAPBZN7dop+scQSDKbEHdAqdIgXAPG0WWNJGIfazLP0wh4+GYuPgGWzm0Lf0OGC9XIVdidxFaBCWUcAHWZeUgE2DyA0e7vcHDyx81dJsJHlNq79di0h+K7Pz9AHSjPwbukFFe2Qcg03oFgqHp4/8DZ6fUyHxPVnUFe6jL1vIpzFptAgMBAAEwDQYJKoZIhvcNAQELBQADgYEAs/8I6jqE4Ty575dOid6vLQRdhtf8zo5oC/w4ox4DVUJBF6HD9f/uq30Jmsc5fe/zxQjKdFy61eO5/aHeuIeB2orAlFmznMhMTD0ekZRrFhle2PGoUVdt7aQVSSyvLMxcK0eQJm4FPaY5WnXbSAjDyOWOVB4VqpKMH4MVg30BOk8=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

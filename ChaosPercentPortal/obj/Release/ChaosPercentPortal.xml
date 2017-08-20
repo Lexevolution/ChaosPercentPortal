@@ -1,0 +1,56 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ChaosPercentPortal
+</name>
+</assembly>
+<members>
+<member name="M:ChaosPercentPortal.InputHelper.PressKey(System.Windows.Forms.Keys,System.Boolean)">
+ <summary>
+ Virtually presses a key.
+ </summary>
+ <param name="Key">The key to press.</param>
+ <param name="HardwareKey">Whether or not to press the key using its hardware scan code.</param>
+ <remarks></remarks>
+</member>
+<member name="M:ChaosPercentPortal.InputHelper.SetKeyState(System.Windows.Forms.Keys,System.Boolean)">
+ <summary>
+ Virtually sends a key event.
+ </summary>
+ <param name="Key">The key of the event to send.</param>
+ <param name="KeyUp">Whether to push down or release the key.</param>
+ <remarks></remarks>
+</member>
+<member name="M:ChaosPercentPortal.InputHelper.SetHardwareKeyState(System.Windows.Forms.Keys,System.Boolean)">
+ <summary>
+ Virtually sends a key event using the key's scan code.
+ </summary>
+ <param name="Key">The key of the event to send.</param>
+ <param name="KeyUp">Whether to push down or release the key.</param>
+ <remarks></remarks>
+</member>
+<member name="M:ChaosPercentPortal.InputHelper.ReplaceBadKeys(System.Windows.Forms.Keys)">
+ <summary>
+ Replaces bad keys with their corresponding VK_* value.
+ </summary>
+ <remarks></remarks>
+</member>
+<member name="T:ChaosPercentPortal.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ChaosPercentPortal.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ChaosPercentPortal.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
+</members>
+</doc>
