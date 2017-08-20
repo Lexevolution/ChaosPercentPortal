@@ -16,3 +16,7 @@ C:\Users\Alex\Documents\Visual Studio 2015\Projects\ChaosPercentPortal\ChaosPerc
 C:\Users\Alex\Documents\Visual Studio 2015\Projects\ChaosPercentPortal\ChaosPercentPortal\obj\Debug\ChaosPercentPortal.TrustInfo.xml
 C:\Users\Alex\Documents\Visual Studio 2015\Projects\ChaosPercentPortal\ChaosPercentPortal\obj\Debug\ChaosPercentPortal.exe.manifest
 C:\Users\Alex\Documents\Visual Studio 2015\Projects\ChaosPercentPortal\ChaosPercentPortal\obj\Debug\ChaosPercentPortal.application
+C:\Users\Alex\Documents\GitHub\ChaosPercentPortal\ChaosPercentPortal\bin\Debug\ChaosPercentPortal.exe.config
+C:\Users\Alex\Documents\GitHub\ChaosPercentPortal\ChaosPercentPortal\obj\Debug\ChaosPercentPortal.exe
+C:\Users\Alex\Documents\GitHub\ChaosPercentPortal\ChaosPercentPortal\obj\Debug\ChaosPercentPortal.xml
+C:\Users\Alex\Documents\GitHub\ChaosPercentPortal\ChaosPercentPortal\obj\Debug\ChaosPercentPortal.pdb
