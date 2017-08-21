@@ -118,11 +118,11 @@ Partial Class About
         'Label4
         '
         Me.Label4.AutoSize = True
-        Me.Label4.Location = New System.Drawing.Point(145, 310)
+        Me.Label4.Location = New System.Drawing.Point(139, 310)
         Me.Label4.Name = "Label4"
-        Me.Label4.Size = New System.Drawing.Size(63, 13)
+        Me.Label4.Size = New System.Drawing.Size(72, 13)
         Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Version: 1.0"
+        Me.Label4.Text = "Version: 1.0.1"
         '
         'Label5
         '
