@@ -28,7 +28,6 @@ Partial Class Options
         Me.OptionsTitle = New System.Windows.Forms.Label()
         Me.Label1 = New System.Windows.Forms.Label()
         Me.TutButton = New System.Windows.Forms.Button()
-        Me.AboutButton = New System.Windows.Forms.Button()
         Me.Label3 = New System.Windows.Forms.Label()
         Me.PopupToggle = New System.Windows.Forms.CheckBox()
         Me.SuspendLayout()
@@ -73,21 +72,12 @@ Partial Class Options
         '
         'TutButton
         '
-        Me.TutButton.Location = New System.Drawing.Point(153, 326)
+        Me.TutButton.Location = New System.Drawing.Point(297, 326)
         Me.TutButton.Name = "TutButton"
         Me.TutButton.Size = New System.Drawing.Size(75, 23)
         Me.TutButton.TabIndex = 4
         Me.TutButton.Text = "Tutorial"
         Me.TutButton.UseVisualStyleBackColor = True
-        '
-        'AboutButton
-        '
-        Me.AboutButton.Location = New System.Drawing.Point(297, 326)
-        Me.AboutButton.Name = "AboutButton"
-        Me.AboutButton.Size = New System.Drawing.Size(75, 23)
-        Me.AboutButton.TabIndex = 5
-        Me.AboutButton.Text = "About"
-        Me.AboutButton.UseVisualStyleBackColor = True
         '
         'Label3
         '
@@ -115,7 +105,6 @@ Partial Class Options
         Me.ClientSize = New System.Drawing.Size(384, 361)
         Me.Controls.Add(Me.PopupToggle)
         Me.Controls.Add(Me.Label3)
-        Me.Controls.Add(Me.AboutButton)
         Me.Controls.Add(Me.TutButton)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.OptionsTitle)
@@ -136,7 +125,6 @@ Partial Class Options
     Friend WithEvents OptionsTitle As Label
     Friend WithEvents Label1 As Label
     Friend WithEvents TutButton As Button
-    Friend WithEvents AboutButton As Button
     Friend WithEvents Label3 As Label
     Friend WithEvents PopupToggle As CheckBox
 End Class

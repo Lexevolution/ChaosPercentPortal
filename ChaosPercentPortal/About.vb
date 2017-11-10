@@ -24,7 +24,7 @@
     End Sub
 
     Private Sub CloseWindow() Handles Me.Closed
-        Options.Show()
+        Form1.Show()
     End Sub
 
 

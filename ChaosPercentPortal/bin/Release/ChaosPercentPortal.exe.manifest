@@ -43,14 +43,14 @@
     </dependentAssembly>
   </dependency>
   <dependency>
-    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChaosPercentPortal.exe" size="242624">
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="ChaosPercentPortal.exe" size="243136">
       <assemblyIdentity name="ChaosPercentPortal" version="1.0.1.0" language="neutral" processorArchitecture="msil" />
       <hash>
         <dsig:Transforms>
           <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
         </dsig:Transforms>
         <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha256" />
-        <dsig:DigestValue>6VsqUwa0MNXk6JxFxZRBMR1wMu0nt17jgAD4iJ0M8Qw=</dsig:DigestValue>
+        <dsig:DigestValue>g7fU4VyeW16t+4NypJW5nShD4gV/+2GxcanxrWjLWJE=</dsig:DigestValue>
       </hash>
     </dependentAssembly>
   </dependency>

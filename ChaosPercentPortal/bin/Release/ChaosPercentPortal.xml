@@ -6,6 +6,22 @@ ChaosPercentPortal
 </name>
 </assembly>
 <members>
+<member name="T:ChaosPercentPortal.My.Resources.Resources">
+<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+<member name="P:ChaosPercentPortal.My.Resources.Resources.ResourceManager">
+<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member>
+<member name="P:ChaosPercentPortal.My.Resources.Resources.Culture">
+<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member>
 <member name="M:ChaosPercentPortal.InputHelper.PressKey(System.Windows.Forms.Keys,System.Boolean)">
  <summary>
  Virtually presses a key.
@@ -35,22 +51,6 @@ ChaosPercentPortal
  Replaces bad keys with their corresponding VK_* value.
  </summary>
  <remarks></remarks>
-</member>
-<member name="T:ChaosPercentPortal.My.Resources.Resources">
-<summary>
-  A strongly-typed resource class, for looking up localized strings, etc.
-</summary>
-</member>
-<member name="P:ChaosPercentPortal.My.Resources.Resources.ResourceManager">
-<summary>
-  Returns the cached ResourceManager instance used by this class.
-</summary>
-</member>
-<member name="P:ChaosPercentPortal.My.Resources.Resources.Culture">
-<summary>
-  Overrides the current thread's CurrentUICulture property for all
-  resource lookups using this strongly typed resource class.
-</summary>
 </member>
 </members>
 </doc>

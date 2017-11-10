@@ -30,6 +30,7 @@ Partial Class Form1
         Me.FolderBrowserDialog1 = New System.Windows.Forms.FolderBrowserDialog()
         Me.Timer1 = New System.Windows.Forms.Timer(Me.components)
         Me.CCommand = New System.Windows.Forms.Label()
+        Me.AboutButton = New System.Windows.Forms.Button()
         Me.SuspendLayout()
         '
         'Label1
@@ -78,15 +79,25 @@ Partial Class Form1
         Me.CCommand.TabIndex = 3
         Me.CCommand.Text = "Current Command:"
         '
+        'AboutButton
+        '
+        Me.AboutButton.Location = New System.Drawing.Point(128, 244)
+        Me.AboutButton.Name = "AboutButton"
+        Me.AboutButton.Size = New System.Drawing.Size(114, 50)
+        Me.AboutButton.TabIndex = 4
+        Me.AboutButton.Text = "About"
+        Me.AboutButton.UseVisualStyleBackColor = True
+        '
         'Form1
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(384, 361)
-        Me.Controls.Add(Me.CCommand)
+        Me.Controls.Add(Me.AboutButton)
         Me.Controls.Add(Me.OptionsButton)
         Me.Controls.Add(Me.ChaosStartButton)
         Me.Controls.Add(Me.Label1)
+        Me.Controls.Add(Me.CCommand)
         Me.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
@@ -103,4 +114,5 @@ Partial Class Form1
     Friend WithEvents FolderBrowserDialog1 As FolderBrowserDialog
     Friend WithEvents Timer1 As Timer
     Friend WithEvents CCommand As Label
+    Friend WithEvents AboutButton As Button
 End Class

@@ -175,6 +175,11 @@ selectcfg:
         Hide()
     End Sub
 
+    Private Sub AboutButton_Click(sender As Object, e As EventArgs) Handles AboutButton.Click
+        About.Show()
+        Hide()
+    End Sub
+
     ' The juicy stuff (Note: Not actually juicy)
     Private Sub Timer1_Tick(sender As Object, e As EventArgs) Handles Timer1.Tick
         Dim rng As New Random

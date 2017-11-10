@@ -86,10 +86,4 @@
         MsgBox("Streamer mode writes the commands that will be executed in to a text file called 'StreamCommands.txt'. You can use this to display the commands in your livestreaming program.", vbOKOnly, "Tutorial - Options")
     End Sub
 
-    Private Sub AboutButton_Click(sender As Object, e As EventArgs) Handles AboutButton.Click
-        About.Show()
-        Hide()
-    End Sub
-
-
 End Class
