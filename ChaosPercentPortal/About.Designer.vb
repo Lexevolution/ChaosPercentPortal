@@ -122,7 +122,7 @@ Partial Class About
         Me.Label4.Name = "Label4"
         Me.Label4.Size = New System.Drawing.Size(72, 13)
         Me.Label4.TabIndex = 8
-        Me.Label4.Text = "Version: 1.0.1"
+        Me.Label4.Text = "Version: 1.0.2"
         '
         'Label5
         '
@@ -152,6 +152,7 @@ Partial Class About
         Me.Icon = CType(resources.GetObject("$this.Icon"), System.Drawing.Icon)
         Me.MaximizeBox = False
         Me.Name = "About"
+        Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "About"
         Me.ResumeLayout(False)
         Me.PerformLayout()

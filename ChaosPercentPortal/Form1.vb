@@ -81,6 +81,7 @@ selectcfg:
             c_off.Clear()
             tog = 0
             OptionsButton.Hide()
+            AboutButton.Hide()
             CCommand.Show()
             ChaosStartButton.Text = "Stop The Chaos!"
             Chaos = True
@@ -164,6 +165,7 @@ selectcfg:
             Timer1.Stop()
             CCommand.Hide()
             OptionsButton.Show()
+            AboutButton.Show()
             ChaosStartButton.Text = "Start The Chaos!"
         End If
 
